@@ -1,0 +1,124 @@
+
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" ;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #AACB90;
+  overflow: auto;
+}
+
+.header1{
+	float:left;
+	width:11%;
+	padding-left: 45px;
+}
+
+/* Style the logo inside header */
+.logo {
+  float: left;
+}
+
+.header2{
+	float:right;
+	width:89%;
+	padding-top: 15px;
+}
+
+
+.heading{
+	float: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #045E09;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FE0904;
+  color: black;
+}
+
+div.body{
+	font-family: sans-serif;
+	height:630px;
+}
+
+.body1{
+	float:left;
+	width:55%;
+	height:630px;
+	margin-top:0;
+}
+
+#schedule {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#schedule td, #schedule th {
+  border: 1px solid #ddd;
+  padding: 6px;
+}
+
+#schedule tr:nth-child(even){background-color: #f2f2f2;}
+
+#schedule tr:hover {background-color: #ddd;}
+
+#schedule th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.body2{
+	float:right;
+	width:45%;
+	height:630px;
+	margin-top:0;
+	color: white;
+	text-align: center;
+}
+
+.footer {
+  background-color: #175921;
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.footer a:link {
+  text-decoration: none;
+}

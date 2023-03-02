@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #AACB90;
+  overflow: auto;
+}
+
+.header1{
+	float:left;
+	width:11%;
+	padding-left: 45px;
+}
+
+/* Style the logo inside header */
+.logo {
+  float: left;
+}
+
+.header2{
+	float:right;
+	width:89%;
+	padding-top: 15px;
+}
+
+
+.heading{
+	float: left;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #045E09;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #FE0904;
+  color: black;
+}
+
+.imgpart{
+	background: #051509;
+}
+
+.image{
+	margin-left:270px;
+	width: 800px;
+	overflow: hidden;
+	
+}
+
+.Train-image {
+  width: 3200px;
+  position: relative;
+  animation-name: slideranimation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.Train-image img{
+	float: left;
+}
+
+@keyframes slideranimation{
+	
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: -800px;
+	}
+	45%{
+		left: -800px;
+	}
+	50%{
+		left: -1600px;
+	}
+	70%{
+		left: -1600px;
+	}
+	75%{
+		left: -2400px;
+	}
+	
+}
+
+.footer {
+  background-color: #175921;
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer a{
+  color: white;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.footer a:link {
+  text-decoration: none;
+}
+
+
+div.infopart1 {
+  
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #73AD21;
+} 
+
+div.inside-info1 {
+  position: absolute;
+  top: 70px;
+  float:left;
+  width: 20%;
+  height: 160px;
+  background-color: green;
+  text-align:center;
+
+}
+
+#info1 {
+  position: absolute;
+  width: 50%;
+  margin-left:20%;
+  height:160px;
+  float:left;
+  top: 70px;
+  text-align: center;
+  background-color: green;
+  display:none;
+
+}
+
+.button1 {
+  background-color:green;
+  border: none;
+  color: black;
+  padding: 60px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  border: none;
+  color: black;
+  padding: 60px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:lightblue;
+}
+
+div.infopart2 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+} 
+
+div.inside-info2 {
+  position: absolute;
+  top: 70px;
+  right:0;
+  width: 20%;
+  height: 160px;
+  background-color: lightblue;
+  text-align:center;
+
+}
+
+#info2 {
+  position: absolute;
+  width: 50%;
+  margin-left:30%;
+  height:160px;
+  float:left;
+  top: 70px;
+  text-align: center;
+  background-color: lightblue;
+  display:none;
+}
+
+div.infopart3 {  
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: #73AD21;
+} 
+
+div.inside-info3 {
+  position: absolute;
+  top: 70px;
+  float:left;
+  width: 20%;
+  height: 160px;
+  background-color: green;
+  text-align:center;
+
+}
+
+#info3 {
+  position: absolute;
+  width: 50%;
+  margin-left:20%;
+  height:160px;
+  float:left;
+  top: 70px;
+  text-align: center;
+  background-color: green;
+  display:none;
+
+}
+
+.button3 {
+  background-color:green;
+  border: none;
+  color: black;
+  padding: 60px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button4 {
+  border: none;
+  color: black;
+  padding: 60px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color:lightblue;
+}
+
+div.infopart4 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+} 
+
+div.inside-info4 {
+  position: absolute;
+  top: 70px;
+  right:0;
+  width: 20%;
+  height: 160px;
+  background-color: lightblue;
+  text-align:center;
+
+}
+
+#info4 {
+  position: absolute;
+  width: 50%;
+  margin-left:30%;
+  height:160px;
+  float:left;
+  top: 70px;
+  text-align: center;
+  background-color: lightblue;
+  display:none;
+
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fare</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="CSS_File/fare.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="header1">
+  <img class="logo" src="img/jU14FTa.jpg" alt="Metro Rail" width="100" height="100">
+  </div>
+  
+  <div class="header2">
+  <h1 class="heading">Track Taker</h1>
+  </div>
+</div>
+
+<div class="topnav">
+  <a href="home.html"><i class="fa fa-home"></i></a>
+  <a href="userlogin.html">LOGIN</a>
+  <a href="Signup.html">REGISTRATION</a>
+  <a href="user_time_schedule.html">TRAIN SCHEDULE</a>
+  <a href="fare.html">FARE</a>
+  <a style="float:right" href="adminlogin.html">ADMIN</a>
+</div>
+
+<div class="body">
+<div class="bodyheader">
+<h3>Fare Enquiry</h3>
+
+<div class="textbox">
+	<i class="fa fa-subway" aria-hidden="true"></i>
+	 <center>Train: MRT Line-6</center>
+	</div>
+
+<form action="" target="" method="POST">
+
+	<div class="textbox">
+	<i class="fa fa-plus-circle" aria-hidden="true"></i>
+
+	<input type="text" placeholder="Source" name="" value="">
+	</div>
+	
+	<div class="textbox">
+	<i class="fa fa-minus-circle" aria-hidden="true"></i>
+
+	<input type="password" placeholder="Destination" name="" value="">
+	</div>
+
+	<br>
+	<input class="btn" type="submit" name="" value="Get Fare">
+	</form>
+	
+	/* submit press korle ai label e show korbe */
+	
+	<div class="textbox1">
+	<label type="text" placeholder="" name="" value="<%= fare_demo.farecalculation.fare(source,destination) %>">
+	</div>
+
+</div></div>
+
+<div class="footer">
+<b>
+  <a href="#">Terms & Conditions</a> |
+  <a href="#">Privacy Policy</a> |
+  <a href="#">Contact Us</a>
+</b>  
+</div>
+
+</body>
+</html>
